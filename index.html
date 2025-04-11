@@ -4,10 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+
+    <!-- Font: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vite + React + Tailwind</title>
   </head>
-  <body>
-    <div id="root"></div>
+  <body
+    class="font-poppins bg-bg text-white leading-relaxed scroll-smooth overflow-x-hidden"
+  >
+    <div id="root" class="w-full h-full"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
   </body>
 </html>
